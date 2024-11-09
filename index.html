@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JN Network - Minecraft Server</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: linear-gradient(to bottom right, #141e30, #243b55);
+            color: #eee;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px); /* Add a blur effect */
+            border-radius: 10px;
+            padding: 40px;
+            max-width: 900px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1, h2 {
+            color: #80c0ff;
+            text-shadow: 0 0 5px #007bff; /* Add a glow effect */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .game-mode {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add hover effect */
+        }
+        .game-mode:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left; /* Align list items to the left */
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .ip-addresses {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        code {
+            background-color: #222;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .maintenance {
+            color: #ffa500; /* Orange color for maintenance */
+        }
+
+        .upcoming {
+            color: #90ee90; /* Light green for upcoming */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌌 — Welcome to JN Network — 🌌</h1>
+        <p><em>Embark on an unforgettable Minecraft adventure!</em></p>
+
+        <div class="game-mode">
+            <h2>🌿 Survival</h2>
+            <ul>
+                <li>➤ Custom Items & Gear</li>
+                <li>➤ Skill Upgrades & Unique Abilities</li>
+                <li>➤ Dungeons, Overworld Bosses & Spawners</li>
+            </ul>
+        </div>
+         <div class="game-mode">
+            <h2>⚔️ Skywars</h2>
+            <ul>
+                <li>➤ Soul Wells – Unlock rewards as you play</li>
+                <li>➤ Kits & Perks – Customize your playstyle</li>
+                <li>➤ Game Modes: Insane, Mega, and Team</li>
+            </ul>
+        </div>
+        <div class="game-mode">
+            <h2>🏃 Parkour</h2>
+            <ul>
+                <li>➤ Escape Mode – Find your way out!</li>
+                <li>➤ Dropper – Freefall through obstacles</li>
+                <li>➤ Stages – Progress through increasingly tough levels</li>
+            </ul>
+        </div>
+
+        <div class="game-mode">
+            <h2 class="maintenance">🏹 Practice</h2>
+            <p class="maintenance"><em>Currently in Maintenance, back soon!</em></p>
+        </div>
+
+        <div class="game-mode">
+            <h2 class="upcoming">💀 Lifesteal</h2>
+            <p class="upcoming"><em>An upcoming twist on survival mode!</em></p>
+        </div>
+
+
+
+        <div class="ip-addresses">
+            <h2>✨ IP Addresses</h2>
+            <strong>Java:</strong> <code>join.junarmc.xyz</code><br>
+            <strong>Eaglercraft:</strong> <code>wss://play.junarmc.xyz</code>
+        </div>
+    </div>
+
+</body>
+</html>
